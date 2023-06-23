@@ -1,1 +1,85 @@
-/* Write your CSS here */
+.money-manager-container {
+  margin: 0px;
+}
+.name-card-container {
+  margin: 20px;
+  border-radius: 20px;
+  padding: 30px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  height: auto;
+}
+.customer-name {
+  color: #475569;
+  margin-left: 20px;
+}
+
+.suffix {
+  color: #7e858e;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.span-element {
+  color: #0b69ff;
+  font-weight: 700;
+}
+
+.trans-his-container {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+.add-transaction {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cbd5e1;
+  padding: 25px;
+  border-radius: 10px;
+  height: 50vh;
+  width: 40vw;
+}
+
+.history-container {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cbd5e1;
+  padding: 25px;
+  border-radius: 10px;
+  height: 50vh;
+  width: 60vw;
+}
+
+.add-btn {
+  margin-top: 6px;
+  height: 30px;
+  width: 60px;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 4px;
+  border-width: 0px;
+  background-color: #0b69ff;
+}
+
+.input-element {
+  padding: 5px;
+  margin-bottom: 16px;
+  width: 85%;
+  font-weight: 500;
+  border: 1px solid cbd5e1;
+}
+
+.label {
+  font-size: 10px;
+  margin-bottom: 4px;
+  color: #7e858e;
+  font-weight: 600;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 1px solid #d7dfe9;
+}

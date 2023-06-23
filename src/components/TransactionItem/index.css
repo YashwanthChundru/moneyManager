@@ -1,1 +1,18 @@
-/* Write your CSS here */
+.delete-icon {
+  height: 20px;
+}
+
+.delete-button {
+  border: none;
+  background-color: transparent;
+}
+.list {
+  list-style-type: none;
+}
+
+.list-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 1px solid #d7dfe9;
+}

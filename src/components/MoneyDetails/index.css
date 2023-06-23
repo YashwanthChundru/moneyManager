@@ -1,1 +1,47 @@
-/* Write your CSS here */
+.money-details-container {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  justify-content: space-between;
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ecfccb;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #84cc16;
+  height: 100px;
+  width: 250px;
+}
+.income-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #cffafe;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #06b6d4;
+  height: 100px;
+  width: 250px;
+}
+.expenses-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ede9fe;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #7c3aed;
+  height: 100px;
+  width: 250px;
+}
+
+.common-img {
+  height: 70px;
+}
